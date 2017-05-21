@@ -17,7 +17,8 @@
 /tmp
 .idea
 .idea/*
-
+.bundle
+.bundle/*
 public/uploads
 
 .DS_Store
