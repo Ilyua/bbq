@@ -1,22 +1,19 @@
 source 'https://rubygems.org'
 
-
-
-
-gem 'rails', '~> 5.0.2'
-
-
-
-gem 'uglifier', '>= 1.3.0'
-
-
+gem 'devise', '~> 4.1.1'
+gem 'devise-i18n'
 gem 'jquery-rails'
-
-group :development, :test do
-  gem 'listen'
-  gem 'sqlite3'
-  gem 'byebug'
+gem 'rails', '~> 4.2.6'
+gem 'rails-i18n'
+gem 'twitter-bootstrap-rails'
+gem 'uglifier', '>= 1.3.0'
+gem 'carrierwave'
+gem 'rmagick'
+group :production do
+  gem 'pg'
 end
 
-
-
+group :development, :test do
+  gem 'byebug'
+  gem 'sqlite3'
+end
